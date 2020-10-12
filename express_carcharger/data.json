@@ -1,0 +1,2995 @@
+[
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.teslamotors.com",
+      "Comments": null,
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": null,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 23,
+      "Title": "Tesla Motors (Worldwide)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-12T05:36:00Z",
+    "ID": 169219,
+    "UUID": "97A324C5-8C30-475F-BD35-CBF1B3A6F044",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 23,
+    "OperatorsReference": "51103",
+    "UsageTypeID": 4,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 169578,
+      "Title": "Holiday Club Saariselkä",
+      "AddressLine1": "Saariseläntie 7",
+      "AddressLine2": null,
+      "Town": "Saariselkä",
+      "StateOrProvince": null,
+      "Postcode": "99830",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 68.4201,
+      "Longitude": 27.42,
+      "ContactTelephone1": "+358 300870969",
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257428,
+        "ConnectionTypeID": 30,
+        "ConnectionType": {
+          "FormalName": null,
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 30,
+          "Title": "Tesla (Model S/X)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 2,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "2 Tesla Connectors, up to 22kW.Available for customers. Self park.",
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-12T05:36:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-12T05:36:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": "For use when the operator is a home owner or private individual making their own facilities available to the public",
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": true,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 44,
+      "Title": "(Private Residence/Individual)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-09T17:48:00Z",
+    "ID": 169026,
+    "UUID": "D3C42DD5-AF0F-4A0B-BBC8-60AA22335F22",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 44,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": "0.15€/kWh",
+    "AddressInfo": {
+      "ID": 169385,
+      "Title": "Bredis",
+      "AddressLine1": "Sinimäentie 18",
+      "AddressLine2": null,
+      "Town": "Espoo",
+      "StateOrProvince": "Southern Finland",
+      "Postcode": "02130",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.201738479069974,
+      "Longitude": 24.784620728754362,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257110,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 2,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-12T07:18:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-09T17:48:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": "For use when the operator is a home owner or private individual making their own facilities available to the public",
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": true,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 44,
+      "Title": "(Private Residence/Individual)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-09T17:45:00Z",
+    "ID": 169025,
+    "UUID": "3B7100FE-7F10-453F-A538-8F4B06CDFF7C",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 44,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": "0.15€/kWh",
+    "AddressInfo": {
+      "ID": 169384,
+      "Title": "Innopoli",
+      "AddressLine1": "Tekniikantie 14",
+      "AddressLine2": null,
+      "Town": "Espoo",
+      "StateOrProvince": "Southern Finland",
+      "Postcode": "02110",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.185641193668516,
+      "Longitude": 24.81274669046786,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257109,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 8,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 8,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-11T20:46:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-09T17:45:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": "For use when the operator is a home owner or private individual making their own facilities available to the public",
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": true,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 44,
+      "Title": "(Private Residence/Individual)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": null,
+      "IsMembershipRequired": null,
+      "IsAccessKeyRequired": null,
+      "ID": 1,
+      "Title": "Public"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-09T17:34:00Z",
+    "ID": 169024,
+    "UUID": "EACEF4E5-28BD-4853-A234-311D54AFF285",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 44,
+    "OperatorsReference": null,
+    "UsageTypeID": 1,
+    "UsageCost": "free but parking fee required",
+    "AddressInfo": {
+      "ID": 169383,
+      "Title": "Aino Shopping center",
+      "AddressLine1": "Länsituulentie 7",
+      "AddressLine2": null,
+      "Town": "Espoo",
+      "StateOrProvince": "Southern Finland",
+      "Postcode": "02100",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.17561813893519,
+      "Longitude": 24.805169875647607,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257108,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 5,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 5,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-12T07:46:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-09T17:34:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": "For use when the operator is a home owner or private individual making their own facilities available to the public",
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": true,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 44,
+      "Title": "(Private Residence/Individual)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-09T17:29:00Z",
+    "ID": 169023,
+    "UUID": "3E55ADA9-7F1F-4BD8-B830-86D55519A41C",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 44,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": "0.15€/kWh +parking",
+    "AddressInfo": {
+      "ID": 169382,
+      "Title": "Kauppakeskus Liila",
+      "AddressLine1": "Martinsillantie 10",
+      "AddressLine2": null,
+      "Town": "Espoo",
+      "StateOrProvince": "Southern Finland",
+      "Postcode": "02270",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.15981733234349,
+      "Longitude": 24.69452532765115,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": "Roof parking",
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257107,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 4,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-12T07:48:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-09T17:29:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 45,
+      "Title": "(Business Owner at Location)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-09T17:24:00Z",
+    "ID": 169022,
+    "UUID": "01EFB2A3-C52D-4C07-B921-4550815AC022",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 45,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": "AC: 1h free, 0.10€/kWh. DC 0.10/kWh",
+    "AddressInfo": {
+      "ID": 169381,
+      "Title": "Motonet Oy",
+      "AddressLine1": "Hannuksenpelto 10-14",
+      "AddressLine2": null,
+      "Town": "Espoo",
+      "StateOrProvince": "Southern Finland",
+      "Postcode": "FIN-02270",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.1570726779907,
+      "Longitude": 24.695484489009914,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": "http://www.motonet.fi",
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257104,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 2,
+        "Comments": null
+      },
+      {
+        "ID": 257105,
+        "ConnectionTypeID": 2,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration AA",
+          "IsDiscontinued": null,
+          "IsObsolete": null,
+          "ID": 2,
+          "Title": "CHAdeMO"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 50.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 257106,
+        "ConnectionTypeID": 33,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration FF",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 33,
+          "Title": "CCS (Type 2)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 50.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-12T07:50:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-09T17:24:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": "Belgian charging network",
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 38,
+      "Title": "Lidl"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-09T17:19:00Z",
+    "ID": 169021,
+    "UUID": "F894A4A4-C734-4DFE-9567-A086B6032991",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 38,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": "free",
+    "AddressInfo": {
+      "ID": 169380,
+      "Title": "Lidl Hannus",
+      "AddressLine1": "Hannuksentie",
+      "AddressLine2": null,
+      "Town": "Espoo",
+      "StateOrProvince": "Southern Finland",
+      "Postcode": "02271",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.15845014109709,
+      "Longitude": 24.70524509020106,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": "http://www.lidl.fi",
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257101,
+        "ConnectionTypeID": 1036,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 1036,
+          "Title": "Type 2 (Tethered Connector) "
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 257102,
+        "ConnectionTypeID": 33,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration FF",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 33,
+          "Title": "CCS (Type 2)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 50.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 1,
+        "Comments": null
+      },
+      {
+        "ID": 257103,
+        "ConnectionTypeID": 2,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration AA",
+          "IsDiscontinued": null,
+          "IsObsolete": null,
+          "ID": 2,
+          "Title": "CHAdeMO"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 50.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-11T20:45:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-09T17:19:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": "For use when the operator is a home owner or private individual making their own facilities available to the public",
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": true,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 44,
+      "Title": "(Private Residence/Individual)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-09T17:16:00Z",
+    "ID": 169020,
+    "UUID": "645E42F9-BD70-4BD5-8AC7-92F601A68E4F",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 44,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 169379,
+      "Title": "Länsiauto Oy",
+      "AddressLine1": "Kuitinmäentie",
+      "AddressLine2": null,
+      "Town": "Espoo",
+      "StateOrProvince": "Southern Finland",
+      "Postcode": "02271",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.16171101209241,
+      "Longitude": 24.707811766126383,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": "http://www.lansiauto.fi",
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257100,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 3,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 3,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-12T07:49:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-09T17:16:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": "For use when the operator is a home owner or private individual making their own facilities available to the public",
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": true,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 44,
+      "Title": "(Private Residence/Individual)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": null,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": null,
+      "ID": 2,
+      "Title": "Private - Restricted Access"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-09T17:10:00Z",
+    "ID": 169019,
+    "UUID": "219FC1AE-31EA-415A-900A-14DD66FBEF54",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 44,
+    "OperatorsReference": null,
+    "UsageTypeID": 2,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 169378,
+      "Title": "Veho Olari",
+      "AddressLine1": "Piispankallio 1",
+      "AddressLine2": null,
+      "Town": "Espoo",
+      "StateOrProvince": "Southern Finland",
+      "Postcode": "02230",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.168247415403556,
+      "Longitude": 24.743572609989087,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": "http://www.veho.fi",
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257099,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 16,
+        "Voltage": 400,
+        "PowerKW": 11.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 1,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-12T07:49:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-09T17:10:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "http://virta.fi/",
+      "Comments": null,
+      "PhonePrimaryContact": "0800-02200",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 136,
+      "Title": "VIRTA"
+    },
+    "UsageType": {
+      "IsPayAtLocation": null,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": null,
+      "ID": 2,
+      "Title": "Private - Restricted Access"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-09T17:07:00Z",
+    "ID": 169018,
+    "UUID": "BD906D89-F287-493E-BA4D-073ED17762A6",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 136,
+    "OperatorsReference": null,
+    "UsageTypeID": 2,
+    "UsageCost": "unknown",
+    "AddressInfo": {
+      "ID": 169377,
+      "Title": "Madetie 8",
+      "AddressLine1": "Madetie 8",
+      "AddressLine2": null,
+      "Town": "Espoo",
+      "StateOrProvince": "Southern Finland",
+      "Postcode": "02170",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.16625231111709,
+      "Longitude": 24.77825337340164,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": "http://www.virta.fi",
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257098,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 7,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 7,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-12T07:49:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-09T17:07:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "http://virta.fi/",
+      "Comments": null,
+      "PhonePrimaryContact": "0800-02200",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 136,
+      "Title": "VIRTA"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": true,
+      "IsAccessKeyRequired": true,
+      "ID": 4,
+      "Title": "Public - Membership Required"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-09T16:58:00Z",
+    "ID": 169017,
+    "UUID": "421B1DB7-BAB2-4BD0-BDBA-A4F23FEE5BE6",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 136,
+    "OperatorsReference": null,
+    "UsageTypeID": 4,
+    "UsageCost": "0.20€/kWh + 0.20€/h",
+    "AddressInfo": {
+      "ID": 169376,
+      "Title": "Länsikeskus",
+      "AddressLine1": "Pihatörmä 1",
+      "AddressLine2": null,
+      "Town": "Espoo",
+      "StateOrProvince": "Southern Finland",
+      "Postcode": "02210",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.16498903511723,
+      "Longitude": 24.7300846519812,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": "http://www.virta.fi",
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 257097,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 16,
+        "Voltage": 400,
+        "PowerKW": 11.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 6,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 6,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-12T07:53:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-09T16:58:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": "For use when the operator is a home owner or private individual making their own facilities available to the public",
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": true,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 44,
+      "Title": "(Private Residence/Individual)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": null,
+      "IsMembershipRequired": null,
+      "IsAccessKeyRequired": null,
+      "ID": 1,
+      "Title": "Public"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-10-03T19:56:00Z",
+    "ID": 168683,
+    "UUID": "67AEC8A7-832E-492C-B3E1-8570C88F52AD",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 44,
+    "OperatorsReference": null,
+    "UsageTypeID": 1,
+    "UsageCost": "free",
+    "AddressInfo": {
+      "ID": 169042,
+      "Title": "SEO Sodankylä",
+      "AddressLine1": "SEO Sodankylä",
+      "AddressLine2": null,
+      "Town": "Sodankylä",
+      "StateOrProvince": "Northern Finland",
+      "Postcode": "",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 67.40876519353364,
+      "Longitude": 26.573407498704682,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": "Just plug in to charge.",
+      "RelatedURL": "http://seomaki.fi/seo-sodankyla",
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 256318,
+        "ConnectionTypeID": 33,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration FF",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 33,
+          "Title": "CCS (Type 2)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 30.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 3,
+        "Comments": null
+      },
+      {
+        "ID": 256319,
+        "ConnectionTypeID": 2,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration AA",
+          "IsDiscontinued": null,
+          "IsObsolete": null,
+          "ID": 2,
+          "Title": "CHAdeMO"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 30.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-10-04T02:06:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-10-03T19:56:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.rechargeinfra.com/",
+      "Comments": null,
+      "PhonePrimaryContact": "+358 20 33 4455",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": "rami.syvari@fortum.com",
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 198,
+      "Title": "Recharge (Formerly Fortum Charge & Drive)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": null,
+      "IsMembershipRequired": null,
+      "IsAccessKeyRequired": null,
+      "ID": 1,
+      "Title": "Public"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-09-30T19:38:00Z",
+    "ID": 168528,
+    "UUID": "98A2EF14-E532-4698-B7C7-07D09A02E5EA",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 198,
+    "OperatorsReference": null,
+    "UsageTypeID": 1,
+    "UsageCost": "50c/min",
+    "AddressInfo": {
+      "ID": 168887,
+      "Title": "McDonalds Kempele",
+      "AddressLine1": "Myllytie 1",
+      "AddressLine2": null,
+      "Town": "Kempele",
+      "StateOrProvince": null,
+      "Postcode": "90450",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 64.90386049332974,
+      "Longitude": 25.542823900866097,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 255965,
+        "ConnectionTypeID": 33,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration FF",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 33,
+          "Title": "CCS (Type 2)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 225.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": 2,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-09-30T20:09:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-09-30T19:38:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": null,
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": null,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 1,
+      "Title": "(Unknown Operator)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": null,
+      "IsMembershipRequired": null,
+      "IsAccessKeyRequired": null,
+      "ID": 1,
+      "Title": "Public"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-09-18T13:37:00Z",
+    "ID": 167996,
+    "UUID": "785979E2-4A21-4611-A9E5-01319472E3AE",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 1,
+    "OperatorsReference": null,
+    "UsageTypeID": 1,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 168355,
+      "Title": "Palokan Kauppakeskus",
+      "AddressLine1": " Saarijärventie 52",
+      "AddressLine2": null,
+      "Town": "Jyväskylä",
+      "StateOrProvince": "Central Finland",
+      "Postcode": "40270",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 62.287495968359934,
+      "Longitude": 25.714599591134856,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": "https://www.palokankauppakeskus.fi/",
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 255050,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 4,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-09-19T05:19:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-09-18T13:37:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": null,
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": null,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 1,
+      "Title": "(Unknown Operator)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": null,
+      "IsMembershipRequired": null,
+      "IsAccessKeyRequired": null,
+      "ID": 1,
+      "Title": "Public"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-09-18T13:28:00Z",
+    "ID": 167995,
+    "UUID": "500FAF74-BE14-4264-AB65-F3ABD87046E4",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 1,
+    "OperatorsReference": null,
+    "UsageTypeID": 1,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 168354,
+      "Title": "Motonet Jyväskylä, Seppälä",
+      "AddressLine1": "Ahjokatu 6",
+      "AddressLine2": null,
+      "Town": "Jyväskylä",
+      "StateOrProvince": "Central Finland",
+      "Postcode": "40320",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 62.255427816963845,
+      "Longitude": 25.778407853561703,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 255049,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 0,
+        "StatusType": {
+          "IsOperational": null,
+          "IsUserSelectable": true,
+          "ID": 0,
+          "Title": "Unknown"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 11.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 2,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": "Motonet customer account needed to activate charging!",
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-09-19T05:28:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-09-18T13:28:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "http://www.vattenfall.de/de/emobility/emobility.htm",
+      "Comments": null,
+      "PhonePrimaryContact": "0800 - 2 335 335",
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": "emobility@vattenfall.de",
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 108,
+      "Title": "Vattenfall InCharge"
+    },
+    "UsageType": {
+      "IsPayAtLocation": null,
+      "IsMembershipRequired": null,
+      "IsAccessKeyRequired": null,
+      "ID": 1,
+      "Title": "Public"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-09-18T13:23:00Z",
+    "ID": 167994,
+    "UUID": "E6BCB408-018A-4539-8E76-4E16B463228F",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 108,
+    "OperatorsReference": null,
+    "UsageTypeID": 1,
+    "UsageCost": "0.15 €/kWh",
+    "AddressInfo": {
+      "ID": 168353,
+      "Title": "Kauppakeskus Kolmikulma / P-Kolmikulma",
+      "AddressLine1": "Ilmarisenkatu 1",
+      "AddressLine2": null,
+      "Town": "Jyväskylä",
+      "StateOrProvince": null,
+      "Postcode": "40100",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 62.24469474389099,
+      "Longitude": 25.751548242365175,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": "In the P2 section in the parking carage. Parking fees may apply in addition to charging costs.",
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 255048,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 4,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 4,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-09-19T05:32:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-09-18T13:23:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": null,
+      "Comments": "For use when the operator of the equipment is a single business owner connected to the location and equipment is not part of a larger network",
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": null,
+      "ID": 45,
+      "Title": "(Business Owner at Location)"
+    },
+    "UsageType": {
+      "IsPayAtLocation": false,
+      "IsMembershipRequired": false,
+      "IsAccessKeyRequired": false,
+      "ID": 6,
+      "Title": "Private - For Staff, Visitors or Customers"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-09-17T11:32:00Z",
+    "ID": 167920,
+    "UUID": "28A0CA59-EDC2-487E-A342-635CE5E35FF8",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 45,
+    "OperatorsReference": null,
+    "UsageTypeID": 6,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 168279,
+      "Title": "Ranta-Kivi, Saarijärvi",
+      "AddressLine1": "Jyväskyläntie 34",
+      "AddressLine2": null,
+      "Town": "Saarijärvi",
+      "StateOrProvince": "Central Finland",
+      "Postcode": "43100",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 62.6988273463858,
+      "Longitude": 25.280848474270783,
+      "ContactTelephone1": "+358 14 3333777",
+      "ContactTelephone2": null,
+      "ContactEmail": "info@rantaesso.com",
+      "AccessComments": "Charging available only  during Station opening hours",
+      "RelatedURL": "https://www.facebook.com/RantaKivi/",
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 254945,
+        "ConnectionTypeID": 1036,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 1036,
+          "Title": "Type 2 (Tethered Connector) "
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": 16,
+        "Voltage": 400,
+        "PowerKW": 11.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 1,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 1,
+    "GeneralComments": "Type-2, wired. 11 kW\r\n",
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-09-17T11:41:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-09-17T11:32:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "http://openchargemap.org",
+      "Comments": null,
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 1,
+        "Title": "Manual Data Entry"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+      "DateLastImported": null,
+      "ID": 1,
+      "Title": "Open Charge Map Contributors"
+    },
+    "OperatorInfo": {
+      "WebsiteURL": "https://www.plugitcloud.com",
+      "Comments": null,
+      "PhonePrimaryContact": null,
+      "PhoneSecondaryContact": null,
+      "IsPrivateIndividual": false,
+      "AddressInfo": null,
+      "BookingURL": null,
+      "ContactEmail": null,
+      "FaultReportEmail": null,
+      "IsRestrictedEdit": false,
+      "ID": 3353,
+      "Title": "Plugit"
+    },
+    "UsageType": {
+      "IsPayAtLocation": null,
+      "IsMembershipRequired": null,
+      "IsAccessKeyRequired": null,
+      "ID": 1,
+      "Title": "Public"
+    },
+    "StatusType": {
+      "IsOperational": true,
+      "IsUserSelectable": true,
+      "ID": 50,
+      "Title": "Operational"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 200,
+      "Title": "Submission Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": true,
+    "DateLastVerified": "2020-09-15T11:37:00Z",
+    "ID": 167860,
+    "UUID": "449BB306-EA1F-412F-B069-BD9974FBFC73",
+    "ParentChargePointID": null,
+    "DataProviderID": 1,
+    "DataProvidersReference": null,
+    "OperatorID": 3353,
+    "OperatorsReference": null,
+    "UsageTypeID": 1,
+    "UsageCost": "0.20 €/kWh",
+    "AddressInfo": {
+      "ID": 168219,
+      "Title": "Motonet Jyväskylä, Keljo",
+      "AddressLine1": "Kylmälahdentie",
+      "AddressLine2": "Keljo",
+      "Town": "Jyväskylä",
+      "StateOrProvince": "Central Finland",
+      "Postcode": "FI-40500",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 62.213281032652844,
+      "Longitude": 25.72068911430256,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": null,
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 254866,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": null,
+        "StatusTypeID": 50,
+        "StatusType": {
+          "IsOperational": true,
+          "IsUserSelectable": true,
+          "ID": 50,
+          "Title": "Operational"
+        },
+        "LevelID": 2,
+        "Level": {
+          "Comments": "Over 2 kW, usually non-domestic socket type",
+          "IsFastChargeCapable": false,
+          "ID": 2,
+          "Title": "Level 2 : Medium (Over 2kW)"
+        },
+        "Amps": null,
+        "Voltage": null,
+        "PowerKW": 11.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": 2,
+        "Comments": null
+      }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 50,
+    "DateLastStatusUpdate": "2020-09-21T10:08:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 1,
+    "DateCreated": "2020-09-15T11:37:00Z",
+    "SubmissionStatusTypeID": 200
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "https://nobil.no/",
+      "Comments": "NOBIL is an open, publicly owned charging point database for the Nordic countries.",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 30,
+        "Title": "Partially Automated (Ad-Hoc Import)"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "NOBIL by Enova is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) License.",
+      "DateLastImported": "2020-09-16T06:44:54.463Z",
+      "ID": 19,
+      "Title": "NOBIL"
+    },
+    "OperatorInfo": null,
+    "UsageType": null,
+    "StatusType": {
+      "IsOperational": null,
+      "IsUserSelectable": true,
+      "ID": 0,
+      "Title": "Unknown"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 100,
+      "Title": "Imported and Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": false,
+    "DateLastVerified": null,
+    "ID": 167559,
+    "UUID": "C46E39F9-511B-4743-9584-B6A54C07BD63",
+    "ParentChargePointID": null,
+    "DataProviderID": 19,
+    "DataProvidersReference": "4392",
+    "OperatorID": null,
+    "OperatorsReference": null,
+    "UsageTypeID": null,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 167918,
+      "Title": "Kantarellen",
+      "AddressLine1": "Nya Godbyvägen ",
+      "AddressLine2": null,
+      "Town": "Jomala Centrum",
+      "StateOrProvince": "Ahvenanmaa",
+      "Postcode": "22150",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.1332,
+      "Longitude": 19.93401,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": "Ostoskeskuksen/tavaratalon parkkialueella tai -hallissa",
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 254251,
+        "ConnectionTypeID": 2,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration AA",
+          "IsDiscontinued": null,
+          "IsObsolete": null,
+          "ID": 2,
+          "Title": "CHAdeMO"
+        },
+        "Reference": "1",
+        "StatusTypeID": null,
+        "StatusType": null,
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": 63,
+        "Voltage": 400,
+        "PowerKW": 43.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": null,
+        "Comments": "Mode 4"
+      },
+      {
+        "ID": 254252,
+        "ConnectionTypeID": 2,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration AA",
+          "IsDiscontinued": null,
+          "IsObsolete": null,
+          "ID": 2,
+          "Title": "CHAdeMO"
+        },
+        "Reference": "2",
+        "StatusTypeID": null,
+        "StatusType": null,
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": 63,
+        "Voltage": 400,
+        "PowerKW": 43.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": null,
+        "Comments": "Mode 4"
+      },
+      {
+        "ID": 254253,
+        "ConnectionTypeID": 2,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration AA",
+          "IsDiscontinued": null,
+          "IsObsolete": null,
+          "ID": 2,
+          "Title": "CHAdeMO"
+        },
+        "Reference": "3",
+        "StatusTypeID": null,
+        "StatusType": null,
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": 63,
+        "Voltage": 400,
+        "PowerKW": 43.0,
+        "CurrentTypeID": 20,
+        "CurrentType": {
+          "Description": "Alternating Current - Three Phase",
+          "ID": 20,
+          "Title": "AC (Three-Phase)"
+        },
+        "Quantity": null,
+        "Comments": "Mode 4"
+      }
+    ],
+    "NumberOfPoints": 3,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2020-09-08T04:36:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 2,
+    "DateCreated": "2020-09-08T04:14:00Z",
+    "SubmissionStatusTypeID": 100
+  },
+  {
+    "DataProvider": {
+      "WebsiteURL": "https://nobil.no/",
+      "Comments": "NOBIL is an open, publicly owned charging point database for the Nordic countries.",
+      "DataProviderStatusType": {
+        "IsProviderEnabled": true,
+        "ID": 30,
+        "Title": "Partially Automated (Ad-Hoc Import)"
+      },
+      "IsRestrictedEdit": false,
+      "IsOpenDataLicensed": true,
+      "IsApprovedImport": true,
+      "License": "NOBIL by Enova is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) License.",
+      "DateLastImported": "2020-09-16T06:44:54.463Z",
+      "ID": 19,
+      "Title": "NOBIL"
+    },
+    "OperatorInfo": null,
+    "UsageType": null,
+    "StatusType": {
+      "IsOperational": null,
+      "IsUserSelectable": true,
+      "ID": 0,
+      "Title": "Unknown"
+    },
+    "SubmissionStatus": {
+      "IsLive": true,
+      "ID": 100,
+      "Title": "Imported and Published"
+    },
+    "UserComments": null,
+    "PercentageSimilarity": null,
+    "MediaItems": null,
+    "IsRecentlyVerified": false,
+    "DateLastVerified": null,
+    "ID": 167558,
+    "UUID": "31ED0B74-7024-4C41-857F-D031BEFD0D82",
+    "ParentChargePointID": null,
+    "DataProviderID": 19,
+    "DataProvidersReference": "3640",
+    "OperatorID": null,
+    "OperatorsReference": null,
+    "UsageTypeID": null,
+    "UsageCost": null,
+    "AddressInfo": {
+      "ID": 167917,
+      "Title": "Ålands landskapsregering",
+      "AddressLine1": "Österleden 165",
+      "AddressLine2": null,
+      "Town": "Maarianhamina",
+      "StateOrProvince": "Ahvenanmaa",
+      "Postcode": "22100",
+      "CountryID": 79,
+      "Country": {
+        "ISOCode": "FI",
+        "ContinentCode": "EU",
+        "ID": 79,
+        "Title": "Finland"
+      },
+      "Latitude": 60.10612,
+      "Longitude": 19.94419,
+      "ContactTelephone1": null,
+      "ContactTelephone2": null,
+      "ContactEmail": null,
+      "AccessComments": "Kadun tai tien varrella",
+      "RelatedURL": null,
+      "Distance": null,
+      "DistanceUnit": 0
+    },
+    "Connections": [
+      {
+        "ID": 254249,
+        "ConnectionTypeID": 25,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-2 Type 2",
+          "IsDiscontinued": false,
+          "IsObsolete": false,
+          "ID": 25,
+          "Title": "Type 2 (Socket Only)"
+        },
+        "Reference": "1",
+        "StatusTypeID": null,
+        "StatusType": null,
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": 32,
+        "Voltage": 400,
+        "PowerKW": 22.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": null,
+        "Comments": "Mode 3"
+      },
+      {
+        "ID": 254250,
+        "ConnectionTypeID": 2,
+        "ConnectionType": {
+          "FormalName": "IEC 62196-3 Configuration AA",
+          "IsDiscontinued": null,
+          "IsObsolete": null,
+          "ID": 2,
+          "Title": "CHAdeMO"
+        },
+        "Reference": "2",
+        "StatusTypeID": null,
+        "StatusType": null,
+        "LevelID": 3,
+        "Level": {
+          "Comments": "40KW and Higher",
+          "IsFastChargeCapable": true,
+          "ID": 3,
+          "Title": "Level 3:  High (Over 40kW)"
+        },
+        "Amps": 100,
+        "Voltage": 500,
+        "PowerKW": 50.0,
+        "CurrentTypeID": 30,
+        "CurrentType": {
+          "Description": "Direct Current",
+          "ID": 30,
+          "Title": "DC"
+        },
+        "Quantity": null,
+        "Comments": "Mode 4"
+      }
+    ],
+    "NumberOfPoints": 2,
+    "GeneralComments": null,
+    "DatePlanned": null,
+    "DateLastConfirmed": null,
+    "StatusTypeID": 0,
+    "DateLastStatusUpdate": "2020-09-08T04:36:00Z",
+    "MetadataValues": null,
+    "DataQualityLevel": 2,
+    "DateCreated": "2020-09-08T04:14:00Z",
+    "SubmissionStatusTypeID": 100
+  }
+]
