@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <Login/>     
       <button>Login</button>
+      <p id = "para">Here you can view the charging stations locations:</p>
       <Map/>
     </div>
   );
