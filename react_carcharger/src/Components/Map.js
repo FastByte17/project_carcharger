@@ -29,7 +29,6 @@ function MyComponent() {
     <LoadScript
       const REACT_APP_API_KEY = {process.env.REACT_APP_API_KEY}
     >
-      {console.log(center)};
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
