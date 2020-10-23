@@ -8,8 +8,8 @@ const containerStyle = {
 };
  
 const center = {
-  lat: -3.745,
-  lng: -38.523
+  lat: 65.0121,
+  lng: 25.4651
 };
  
 function MyComponent() {
@@ -29,9 +29,11 @@ function MyComponent() {
     <LoadScript
       const REACT_APP_API_KEY = {process.env.REACT_APP_API_KEY}
     >
+      {console.log(center)};
       <GoogleMap
         mapContainerStyle={containerStyle}
-        center={center}
+        center={{lat: 65.0121,
+                lng: 25.4651}}
         zoom={10}
         onLoad={onLoad}
         onUnmount={onUnmount}
