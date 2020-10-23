@@ -58,8 +58,7 @@ passport.use(new passportHttp.BasicStrategy(function (username, password, done) 
 }));
 
 // protected resource
-app.get('/protectedResource', passport.authenticate('basic', { session: false }), (req, res) => {
-  console.log('This is final route handler function');
+app.get('/login', passport.authenticate('basic', { session: false }), (req, res) => {
   console.log(req.user);
   res.sendStatus(200);
 });

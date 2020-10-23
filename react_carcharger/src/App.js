@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Login from './Components/Login';
 import Map from './Components/Map';
@@ -12,6 +13,21 @@ class App extends Component {
     this.state = {
       items: []
     }
+
+    function logInButtonClick() {
+      axios.post('http://localhost:4000/login', 
+        {}, 
+        {
+          auth: {
+            username: "Nabeel",
+            password: "tarkov"
+          }
+        })
+        .then(response => {
+          console.log('Login successful');
+        })
+        .catch(error => console.log(error));
+      }
   }
 
   componentDidMount() {
@@ -22,6 +38,7 @@ class App extends Component {
         console.log(this.state.items);
       });
   }
+
   
   render() {
     return (
