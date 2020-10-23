@@ -2,9 +2,9 @@ const express = require('express');
 const app = express();
 var bodyParser = require('body-parser');
 var cors = require('cors');
-const bcryptjs = require('bcryptjs');
+const bcrypt = require('bcryptjs');
 const passport = require('passport');
-const passportHttps = require('passport-http');
+const passportHttp = require('passport-http');
 const port = 4000
 const { v4: uuidv4 } = require('uuid');
 
@@ -28,7 +28,7 @@ app.get('/example', (req, res) => {
 app.post('/register', (req, res) => {
   console.log(req.body);
 
-  const passwordHash = hash = bcrypt.hashSync(req.body.password, 8);
+  const passwordHash = bcrypt.hashSync(req.body.password, 8);
 
   users.push({
     id : uuidv4(),
@@ -43,11 +43,32 @@ app.get('/users', (req, res) => {
   res.json(users);
 })
 
+passport.use(new passportHttp.BasicStrategy(function (username, password, done) {
+  const userResult = users.find(user => user.username === username);
+  if(userResult == undefined) {
+   return done(null, false);
+  }
+
+  if(bcrypt.compareSync(password, userResult.password) == false) {
+    return done(null, false);
+  }
+
+  done(null, userResult);
+
+}));
+
 // protected resource
 app.get('/protectedResource', passport.authenticate('basic', { session: false }), (req, res) => {
   console.log('This is final route handler function');
+  console.log(req.user);
   res.sendStatus(200);
 });
+
+//to protect other routes with http basic:
+
+app.get('/something', passport.authenticate('basic', { session: false }), (req, res) => {
+  res.json({ hello: "world" });
+})
 
 /*app.post('/login', (req, res) => {
     res.send(users)
