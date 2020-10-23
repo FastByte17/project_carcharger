@@ -11,6 +11,8 @@ const { v4: uuidv4 } = require('uuid');
 app.use(bodyParser.json());
 app.use(cors());
 
+const chargers = require('./locations.json');
+
 app.get('/getsomething', (req, res) => {
   res.send('Requested...')
   console.log("hi");
@@ -23,6 +25,10 @@ const users = [];
 app.get('/example', (req, res) => {
   res.send(example)
   console.log("hey");
+})
+
+app.get('/chargers', (req, res) => {
+  res.send(chargers)
 })
 
 app.post('/register', (req, res) => {
@@ -58,8 +64,7 @@ passport.use(new passportHttp.BasicStrategy(function (username, password, done) 
 }));
 
 // protected resource
-app.get('/login', passport.authenticate('basic', { session: false }), (req, res) => {
-  console.log(req.user);
+app.post('/login', passport.authenticate('basic', { session: false }), (req, res) => {
   res.sendStatus(200);
 });
 

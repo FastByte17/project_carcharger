@@ -14,25 +14,12 @@ class App extends Component {
       items: []
     }
 
-    function logInButtonClick() {
-      axios.post('http://localhost:4000/login', 
-        {}, 
-        {
-          auth: {
-            username: "Nabeel",
-            password: "tarkov"
-          }
-        })
-        .then(response => {
-          console.log('Login successful');
-        })
-        .catch(error => console.log(error));
-      }
+    
   }
 
   componentDidMount() {
 
-    axios.get('http://localhost:4000/example')
+    axios.get('http://localhost:4000/chargers')
       .then((response) => {
         this.setState({ items: response.data })
         console.log(this.state.items);
