@@ -22,7 +22,6 @@ class App extends Component {
     axios.get('http://localhost:4000/chargers')
       .then((response) => {
         this.setState({ items: response.data })
-        console.log(this.state.items);
       });
   }
 
@@ -35,7 +34,7 @@ class App extends Component {
         <p>Please Login below</p>
         <Login />     
         <p id = "para">Here you can view the charging stations locations:</p>
-        <Map/>
+        <Map chargers={this.state.items}/>
       </div>
     );
   }

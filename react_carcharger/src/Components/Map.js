@@ -11,9 +11,9 @@ const center = {
   lng: 25.9384
 };
  
-function MyComponent() {
+function MyComponent(props) {
   const [map, setMap] = React.useState(null)
- 
+
   const onLoad = React.useCallback(function callback(map) {
     const bounds = new window.google.maps.LatLngBounds();
     map.fitBounds(bounds);
@@ -37,6 +37,10 @@ function MyComponent() {
         { /* Child components, such as markers, info windows, etc. */ }
         <>
         <Marker position={{ lat: 11.111 , lng:22.222 }} key={1} title={"test"} />
+        {console.log(props.chargers)}
+        {props.chargers.map(charger => <Marker postion = {{lat: charger.AddressInfo.Latitude, lng: charger.AddressInfo.Longitude}} 
+                                                          key = {charger.AddressInfo.ID} title={charger.name} {...charger}/>)}
+        <Marker position={{ lat: 66.111 , lng:25.222 }} key={2} title={"test"} />
         </>
       </GoogleMap>
     </LoadScript>
