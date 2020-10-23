@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 
 export default function Login(props) {
-    const [userid, setUserID] = useState("");
-    const [password, setPassword] = useState("");
-
+    let userName;
+    let passWord;
     return (
         <div>
-            <h1>{props.heading}</h1>
-            <p>{props.paragraph}</p>
+            <input type="text" placeholder="Enter your username"></input><br></br>
+            <input type="password" placeholder="Enter your password"></input><br></br><br></br>
             <button >Login</button>
-            <input></input>
         </div>
     );
 }
