@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Login from './Components/Login';
 import Map from './Components/Map';
+import SlowCharger from './Components/SlowCharger';
 
 
 function App() {

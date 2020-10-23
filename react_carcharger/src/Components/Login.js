@@ -13,5 +13,5 @@ export default function Login(props) {
             <p>{props.paragraph}</p>
             <button >Login</button>
         </div>
-    )
+    );
 }
