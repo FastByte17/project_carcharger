@@ -3,8 +3,9 @@ import axios from 'axios';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Login from './Components/Login';
-import Map from './Components/Map';
+import Maps from './Components/Maps';
 import SlowCharger from './Components/SlowCharger';
+
 
 
 class App extends Component {
@@ -34,7 +35,7 @@ class App extends Component {
         <p>Please Login below</p>
         <Login />     
         <p id = "para">Here you can view the charging stations locations:</p>
-        <Map chargers={this.state.items}/>
+        <Maps chargers={this.state.items}/>
       </div>
     );
   }
