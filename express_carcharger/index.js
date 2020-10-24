@@ -18,7 +18,7 @@ app.get('/getsomething', (req, res) => {
   console.log("hi");
 })
 
-const example = [4,5,6,7,8,9];
+const example = [4, 5, 6, 7, 8, 9];
 
 const users = [];
 
@@ -27,7 +27,7 @@ app.get('/example', (req, res) => {
   console.log("hey");
 })
 
-app.get('/chargers', (req, res) => {
+app.get('/chargers_locations', (req, res) => {
   res.send(chargers)
 })
 
@@ -37,9 +37,9 @@ app.post('/register', (req, res) => {
   const passwordHash = bcrypt.hashSync(req.body.password, 8);
 
   users.push({
-    id : uuidv4(),
-    username : req.body.username,
-    password : passwordHash
+    id: uuidv4(),
+    username: req.body.username,
+    password: passwordHash
   })
 
   res.sendStatus(200);
@@ -51,11 +51,11 @@ app.get('/users', (req, res) => {
 
 passport.use(new passportHttp.BasicStrategy(function (username, password, done) {
   const userResult = users.find(user => user.username === username);
-  if(userResult == undefined) {
-   return done(null, false);
+  if (userResult == undefined) {
+    return done(null, false);
   }
 
-  if(bcrypt.compareSync(password, userResult.password) == false) {
+  if (bcrypt.compareSync(password, userResult.password) == false) {
     return done(null, false);
   }
 

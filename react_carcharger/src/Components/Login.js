@@ -15,23 +15,23 @@ export default function Login(props) {
 
     function logInButtonClick() {
         console.log('pressed');
-        axios.post('http://localhost:4000/login', 
-          {}, 
-          {
-            auth: {
-              username: userName,
-              password: passWord
-            }
-          })
-          .then(response => {
-            console.log('Login successful');
-          })
-          .catch(error => console.log(error));
+        axios.post('http://localhost:4000/login',
+            {},
+            {
+                auth: {
+                    username: userName,
+                    password: passWord
+                }
+            })
+            .then(response => {
+                console.log('Login successful');
+            })
+            .catch(error => console.log(error));
 
 
-          console.log('finished');
-        }
-    
+        console.log('finished');
+    }
+
     return (
         <div>
             <input onChange={username_change} type="text" placeholder="Enter your username"></input><br></br>

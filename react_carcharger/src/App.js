@@ -15,27 +15,27 @@ class App extends Component {
       items: []
     }
 
-    
+
   }
 
   componentDidMount() {
 
-    axios.get('http://localhost:4000/chargers')
+    axios.get('http://localhost:4000/chargers_locations')
       .then((response) => {
         this.setState({ items: response.data })
       });
   }
 
-  
+
   render() {
     return (
       <div className="App">
         <h1>Welcome to Nabeel's Car Charger App!</h1>
 
         <p>Please Login below</p>
-        <Login />     
-        <p id = "para">Here you can view the charging stations locations:</p>
-        <Maps chargers={this.state.items}/>
+        <Login />
+        <p id="para">Here you can view the charging stations locations:</p>
+        <Maps charging_locations={this.state.items} />
       </div>
     );
   }
