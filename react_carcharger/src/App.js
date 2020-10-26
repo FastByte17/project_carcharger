@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import './App.css';
 import Login from './Components/Login';
 import Maps from './Components/Maps';
@@ -12,10 +12,15 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      items: []
+      items: [],
+      loggedIn: false
     }
+    
 
+  }
 
+   SetLoggedIn = () => {
+    this.setState({ loggedIn: true })
   }
 
   componentDidMount() {
@@ -26,19 +31,28 @@ class App extends Component {
       });
   }
 
+  
+
 
   render() {
     return (
+      <Router>
       <div className="App">
         <h1>Welcome to Nabeel's Car Charger App!</h1>
 
-        <p>Please Login below</p>
-        <Login />
-        <p id="para">Here you can view the charging stations locations:</p>
-        <Maps charging_locations={this.state.items} />
+        <Route path="/" render={(routeProps) =>
+          <Login SetLoggedIn={this.SetLoggedIn}{...routeProps}/>}/>
+
+        <Route path="/maps" userLoggedIn={this.state.loggedIn} render={(routing) =>
+          <Maps charging_locations={this.state.items} />}/>
+          
       </div>
+      </Router>
     );
   }
 }
 
 export default App;
+
+//<p id="para">Here you can view the charging stations locations:</p>
+//<Maps charging_locations={this.state.items} />

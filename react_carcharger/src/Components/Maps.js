@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Map, Marker, GoogleApiWrapper } from 'google-maps-react';
+import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
 
 
 const containerStyle = {
@@ -18,6 +18,9 @@ export class MapContainer extends Component {
         {this.props.charging_locations.map(chargers => <Marker position={{ lat: chargers.AddressInfo.Latitude, lng: chargers.AddressInfo.Longitude }}
           key={chargers.AddressInfo.ID} title={chargers.name}> </Marker>)}
 
+
+        
+        
       </Map>
     );
   }
