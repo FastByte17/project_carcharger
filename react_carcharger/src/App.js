@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Login from './Components/Login';
 import Maps from './Components/Maps';
-import SlowCharger from './Components/SlowCharger';
 
 
 
