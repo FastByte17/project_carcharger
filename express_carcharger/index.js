@@ -12,20 +12,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 const chargers = require('./locations.json');
-
-app.get('/getsomething', (req, res) => {
-  res.send('Requested...')
-  console.log("hi");
-})
-
-const example = [4, 5, 6, 7, 8, 9];
-
 const users = [];
-
-app.get('/example', (req, res) => {
-  res.send(example)
-  console.log("hey");
-})
 
 app.get('/chargers_locations', (req, res) => {
   res.send(chargers)
@@ -63,21 +50,9 @@ passport.use(new passportHttp.BasicStrategy(function (username, password, done) 
 
 }));
 
-// protected resource
 app.post('/login', passport.authenticate('basic', { session: false }), (req, res) => {
   res.sendStatus(200);
 });
-
-//to protect other routes with http basic:
-
-app.get('/something', passport.authenticate('basic', { session: false }), (req, res) => {
-  res.json({ hello: "world" });
-})
-
-/*app.post('/login', (req, res) => {
-    res.send(users)
-    console.log("may");
-})*/
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
