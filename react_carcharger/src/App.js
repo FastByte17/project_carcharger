@@ -40,12 +40,15 @@ class App extends Component {
       <div className="App">
         <h1>Welcome to Nabeel's Car Charger App!</h1>
 
+        
+        <Route path="/maps" exact userLoggedIn={this.state.loggedIn} render={(routeProps) =>
+          <Maps charging_locations={this.state.items} />}/>
+        
         <Route path="/" exact render={(routeProps) =>
           <Login SetLoggedIn={this.SetLoggedIn}{...routeProps}/>}/>
         
         
-        <Route path="/maps"  userLoggedIn={this.state.loggedIn} render={(routing) =>
-          <Maps charging_locations={this.state.items} />}/>
+        
                   
       </div>
       </Router>

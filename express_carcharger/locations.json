@@ -2151,7 +2151,7 @@
     "OperatorID": 44,
     "OperatorsReference": null,
     "UsageTypeID": 4,
-    "UsageCost": null,
+    "UsageCost": "unknown",
     "AddressInfo": {
       "ID": 169379,
       "Title": "Länsiauto Oy",
@@ -2289,7 +2289,7 @@
     "OperatorID": 44,
     "OperatorsReference": null,
     "UsageTypeID": 2,
-    "UsageCost": null,
+    "UsageCost": "unknown",
     "AddressInfo": {
       "ID": 169378,
       "Title": "Veho Olari",
@@ -3016,7 +3016,7 @@
     "OperatorID": 1,
     "OperatorsReference": null,
     "UsageTypeID": 1,
-    "UsageCost": null,
+    "UsageCost": "unknown",
     "AddressInfo": {
       "ID": 168355,
       "Title": "Palokan Kauppakeskus",
