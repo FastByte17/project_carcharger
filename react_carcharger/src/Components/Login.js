@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default function Login(props) {
     let userName;
@@ -39,7 +40,8 @@ export default function Login(props) {
             <p>Please Login below</p>
             <input onChange={username_change} type="text" placeholder="Enter your username"></input><br></br>
             <input onChange={password_change} type="password" placeholder="Enter your password"></input><br></br><br></br>
-            <button type="submit" onClick={() => logInButtonClick(props)}>Login</button>
+            <Link to="/maps"><button type="submit" onClick={() => logInButtonClick(props)}>Login</button></Link>
         </div>
+
     );
 }
